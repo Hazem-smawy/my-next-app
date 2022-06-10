@@ -13,4 +13,20 @@ a {
 
 * {
   box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+
+@font-face {
+    font-family:'c';
+    src:url( '../public/fonts/Circe/Circe.ttf')
+}
+@font-face {
+  font-family: 'g';
+  src: url('../public/fonts/Geometria/Geometria.ttf');
+}
+@font-face {
+  font-family: 'm';
+  src: url('../public/fonts/MarkProMed/MarkProMed.ttf');
 }
