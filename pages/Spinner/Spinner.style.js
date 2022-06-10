@@ -38,18 +38,29 @@ export const Btn = styled.button`
 position: absolute;
 width: 50px;
 height: 50px;
-border:none;
-outline:one;
-border-radius:50%;
+border: none;
+outline: one;
+border-radius: 50%;
 left: 50%;
+-webkit-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
 transform: translateX(-50%);
 z-index: 2;
 bottom: 15rem;
 font-size: 2rem;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
 display: flex;
+-webkit-box-pack: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
 justify-content: center;
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
 align-items: center;
-box-shadow: 0 0 16px 6px #0cdc0c80;
+box-shadow: 0px 0px 10px 2px #0cdc0c80;
 background: ${(prop)=>prop.theme.colors.first}
 
 `

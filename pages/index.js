@@ -1,3 +1,4 @@
+ import Spinner from "./Spinner";
  import Home from "./Home";
  const App = () => {
   return (
